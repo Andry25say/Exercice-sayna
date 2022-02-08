@@ -13,12 +13,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Courgette&family=Lato:ital,wght@0,100;0,400;1,300;1,700&family=Neonderthaw&family=Roboto:ital,wght@0,400;0,500;0,700;1,100;1,300;1,700;1,900&family=Rubik+Beastly&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!----------------------EN-TETE DU SITE-------------------------->
     <header>
       <div class="menu">
         <div class="m-left">
-          <div class="logo"><em>MyUnicorn</em></div>
+          <div class="logo">MyUnicorn</div>
         </div>
         <div class="m-right">
           <ul>
@@ -29,16 +34,18 @@
         </div>
       </div>
     </header>
+    <!--------------------FIN DE L'ENTETE--------------------------->
+
+    <!-------------------DEBUT DU CONTENU--------------------------->
     <div class="container">
       <div class="arc">
-        <h1><i>Un jour, une licorne</i></h1>
+        <h1>Un jour, une licorne</h1>
       </div>
-
+    <!-------------------VOICI UN SOUS CONTENU-------------------------->
       <div class="content">
         <div class="princip">
-          <i class="far fa-star">
-            <h2><em>Le principe</em></h2></i
-          >
+          
+          <h2><i class="far fa-star"></i>Le principe</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, id
             iusto soluta ducimus provident accusantium voluptas tempore, est
@@ -60,26 +67,38 @@
             impedit vitae voluptatibus.
           </p>
         </div>
-
-        <div class="ligne">
-          <i class="far fa-star"></i>
-          <h2><em>Nos licornes</em></h2>
-          <div class="colonnes">
-            <img src="images/photo1.jpg" alt="" />
-          </div>
-          <div class="colonnes">
-            <img src="images/photo2.jpg" alt="" />
-          </div>
-          <div class="colonnes">
-            <img src="images/photo3.jpg" alt="" />
-          </div>
-          <div class="colonnes">
-            <img src="images/photo4.jpg" alt="" />
+        <div class="Nlicorn">
+         
+          <h2> <i class="far fa-star"></i>Nos licornes</h2>
+          <div class="ligne">
+            <figure>
+              <img src="images/photo1.jpg" alt="" />
+              <figcaption> Lulu Confetty</figcaption>
+              </figure>
+               
+              
+               <figure>
+                <img src="images/photo2.jpg" alt="" />
+                <figcaption>Lapillon Magik</figcaption>
+               </figure>
+                
+              
+               <figure>
+                <img src="images/photo3.jpg" alt="" />
+                <figcaption>El Ninjacorn</figcaption>
+               </figure>
+                
+              
+               <figure>
+                <img src="images/photo4.jpg" alt="" />
+                <figcaption>Sweety Candy</figcaption>
+               </figure>
           </div>
         </div>
+      
         <div class="trouver">
-          <i class="far fa-star"></i>
-          <h2><em>Nous trouver</em></h2>
+        
+          <h2>  <i class="far fa-star"></i>Nous trouver</h2>
           <div class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7549.1092511341885!2d47.52128202470481!3d-18.906829398740488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e00bfe681a5%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2smg!4v1643893304158!5m2!1sfr!2smg"
@@ -92,21 +111,31 @@
           </div>
           <div class="autres">
             <div>
-              <h3>Notre élevage de licornes est situé au :</h3>
+              <h3 class="lieu">Notre élevage de licornes est situé au :</h3>
               <p>
                 Analakely Market<br />
                 Arabe Rahezavana, Antananarivo, Madagascar<br />
                 01.22.45.67.90
               </p>
             </div>
-            <div>
-              <h3>Newsletter</h3>
-              <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+    
+              <h3 class="Nlettre">Newsletter</h3>
+              <label for=""
+                >Abonnez-vous simplement à notre newsletter mensuelle !</label
+              ><br /><br />
+              <form action="">
+                <input class="champ" type="email" placeholder="votre@email.fr" />
+                <input class="bouton" type="submit " value="Valider">
+
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!------------------------FIN DU CONTENU---------------------------->
+
+    <!------------------------PIEDS DE PAGE----------------------------->
     <footer><p>2016 &copy;WebForce3</p></footer>
   </body>
 </html>
